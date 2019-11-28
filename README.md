@@ -33,3 +33,11 @@ In plugin configuration, user must select/configure :
 - Issue status threshold to warn about higher remaining work
 - Percentage of lower progress to warn about
 - Issue status threshold to warn about undefined test
+
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=Workload-3.0.3
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/Workload-3.0.3.zip;composer.version=3.0.3" -T build/Workload-3.0.3.zip
+```

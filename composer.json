@@ -1,0 +1,25 @@
+{
+    "name": "fidata/workload",
+    "description": "Mantis BT Plugin based on selected custom fields to compute project workload",
+    "type": "mantisbt-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Regis Casteran",
+            "email": "regis.casteran@struct-it.fr"
+        },
+        {
+            "name": "EMBEDIA",
+            "email": "maintenance@embedia.fr"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "/docs",
+            "/wiki",
+            ".gitignore",
+            "ISSUE_TEMPLATE.md",
+            "README.md"
+        ]
+    }
+}
