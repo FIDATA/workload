@@ -1,7 +1,7 @@
 <?php
 	#Plugin page titles
 	$s_plugin_workload_title = 'Workload Metrics';
-	$s_plugin_workload_description = 'Plugin based on selected numeric custom fields to compute products/projects workload.';
+	$s_plugin_workload_description = 'Plugin based on selected custom fields to compute products/projects workload.';
 	$s_plugin_workload_menu = 'Workload';
 	$s_plugin_workload_config = 'Configuration';
 	
@@ -18,7 +18,7 @@
 	$s_plugin_workload_progress_var = 'Custom field for progress';
 	$s_plugin_workload_config_other = 'Other';
 	$s_plugin_workload_management_threshold = 'Management threshold';
-	$s_plugin_workload_custom_field_found_none = 'No numeric custom field found';
+	$s_plugin_workload_custom_field_found_none = 'No numeric or float custom field found';
 	
 	#Plugin menu
 	$s_plugin_workload_menu_main = 'Analysis';

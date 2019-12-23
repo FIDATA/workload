@@ -53,7 +53,7 @@
 	# workload_est_var config
 	echo '<tr>';
 	echo '<td class="category">'.lang_get( 'plugin_workload_est_var' ).'</td>';
-	$t_types = array(CUSTOM_FIELD_TYPE_NUMERIC);
+	$t_types = array(CUSTOM_FIELD_TYPE_NUMERIC, CUSTOM_FIELD_TYPE_FLOAT);
 	$t_custom_fields = get_custom_fied_ids($t_types);
 	if(count($t_custom_fields) > 0) {	
 		echo '<td><select name="workload_est_var_idx">';	

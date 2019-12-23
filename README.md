@@ -25,7 +25,7 @@ Please refer to the plugin [user guide](https://github.com/mantisbt-plugins/trac
 ## Technical solution
 Solution is based on MantisBT [custom fields feature](https://www.mantisbt.org/docs/master-1.2.x/en/administration_guide/admin.customize.html).
 In plugin configuration, user must select/configure :
-- Three custom fields of type NUMERIC :
+- Three custom fields of type FLOAT :
     - One for work progression
     - One for estimated workload
 	- One for done workload

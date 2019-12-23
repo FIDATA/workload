@@ -1,4 +1,4 @@
-<?php
+  <?php
 	require_once('api.php');
 	
 	require_once('core.php');
@@ -47,7 +47,7 @@
 		$t_time_est_id = 0;
 		$t_time_done_id = 0;
 		
-		$t_types = array(CUSTOM_FIELD_TYPE_NUMERIC);		
+		$t_types = array(CUSTOM_FIELD_TYPE_NUMERIC, CUSTOM_FIELD_TYPE_FLOAT);		
 		$t_custom_fields = get_custom_fied_ids($t_types);
 		if(count($t_custom_fields) > 0) {		
 			foreach ($t_custom_fields as $t_field_id) {
