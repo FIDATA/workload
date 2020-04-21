@@ -15,6 +15,7 @@
     ],
     "archive": {
         "exclude": [
+            "/.project",
             "/docs",
             "/wiki",
             ".gitignore",
